@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:messenger1/pages/chat_page.dart';
+import 'package:messenger1/pages/group_chat_page.dart';
 import 'package:messenger1/widgets/wigdets.dart';
 
 class GroupTile extends StatefulWidget {

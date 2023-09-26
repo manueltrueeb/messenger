@@ -30,11 +30,11 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    getUserLoggedInStatus();
+    isUserLoggedInStatus();
   }
   
-  getUserLoggedInStatus() async {
-    await HelperFunctions.getUserLoggedInStatus().then((value) {
+  isUserLoggedInStatus() async {
+    await HelperFunctions.isUserLoggedInStatus().then((value) {
       if(value!=null) {
         setState(() {
         _isSignedIn = value;

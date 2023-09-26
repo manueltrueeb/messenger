@@ -2,7 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:messenger1/helper/helper_function.dart';
-import 'package:messenger1/pages/chat_page.dart';
+import 'package:messenger1/pages/group_chat_page.dart';
 import 'package:messenger1/service/database_service.dart';
 import 'package:messenger1/widgets/wigdets.dart';
 
